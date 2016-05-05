@@ -20,3 +20,11 @@ EVSE_STORAGE_CAPACITY = 60
 # of the day.
 SUN_POWER = [0, 0, 0, 0, 0, 0, 1, 1.3, 1.67, 2, 2.5, 3, 3, 
              3, 3, 2.5, 2, 1.67, 1.3, 1, 0, 0, 0, 0]
+
+# POLICY is the array containing the possible policies for recharging the 
+# storage using the network power
+POLICY = { "ALWAYS":0, "NEVER":1, "SMART":2 }
+
+# This parameter is used to decide the frequency of the sampling
+# for tracing the chart of the soc
+SAMPLING_FREQUENCE = 100
